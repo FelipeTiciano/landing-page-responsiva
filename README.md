@@ -41,7 +41,6 @@ desenvolvimento-web-final/
 + ├─ ACCESSIBILITY.md
 + ├─ CHANGELOG.md
 + ├─ RELEASES.md
-+ ├─ MANUAL_UPLOAD.md
 + ├─ package.json
 + └─ .git/
 
