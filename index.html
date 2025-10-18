@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Atividade - Desenvolvimento Front End</title>
+  <meta name="description" content="Entrega final - projeto acessível, otimizado e versionado." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header role="banner" class="site-header">
+    <div class="container">
+      <h1 id="site-title">Desenvolvimento Front End — Entrega Final</h1>
+      <button id="theme-toggle" aria-pressed="false" aria-label="Ativar modo escuro">Modo</button>
+      <nav role="navigation" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#componentes">Componentes</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" role="main" tabindex="-1">
+    <section id="sobre" aria-labelledby="sobre-title">
+<img src="images/banner.png" alt="Banner ilustrativo do projeto" class="responsive-img" />
+      <h2 id="sobre-title">Sobre o Projeto</h2>
+      <p>Projeto de entrega final para disciplina de Desenvolvimento Front End — inclui práticas de Git/GitHub, acessibilidade WCAG 2.1 AA, otimização para produção e documentação técnica.</p>
+    </section>
+
+    <section id="componentes">
+<img src="images/form.png" alt="Exemplo de formulário acessível" class="responsive-img" />
+<section id="componentes" aria-labelledby="comp-title">
+      <h2 id="comp-title">Componentes e Acessibilidade</h2>
+      <article aria-labelledby="a1-title">
+        <h3 id="a1-title">Formulário de Contato</h3>
+        <form id="contact-form" aria-describedby="form-desc">
+          <p id="form-desc">Use o formulário para enviar uma mensagem — todos os campos são acessíveis por teclado e possuem rótulos claros.</p>
+          <label for="name">Nome</label>
+          <input id="name" name="name" type="text" required />
+          <label for="email">E‑mail</label>
+          <input id="email" name="email" type="email" required />
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <div aria-live="polite" id="form-status" class="sr-only"></div>
+      </article>
+
+      <article aria-labelledby="a2-title">
+        <h3 id="a2-title">Lista de Tarefas (Exemplo interativo)</h3>
+        <ul id="todo" role="list" aria-label="Lista de tarefas">
+          <li tabindex="0">Adicionar arquivos ao repositório</li>
+          <li tabindex="0">Configurar GitFlow</li>
+          <li tabindex="0">Gerar release v1.0.0</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="contato" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contato</h2>
+      <p>Aluno: Felipe Ticiano Foltram</p>
+      <p>Atividade: Desenvolvimento front end para web</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p>Projeto criado para entrega acadêmica — conformidade WCAG 2.1 AA e otimização para produção.</p>
+      <p><a href="CHANGELOG.md">CHANGELOG</a> • <a href="README.md">README</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
