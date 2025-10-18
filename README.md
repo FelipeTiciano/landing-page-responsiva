@@ -54,7 +54,7 @@ desenvolvimento-web-final/
 Branches principais criadas:
 
 - **main** — branch de produção
-**develop** — branch de desenvolvimento (commit mínimo apenas para evidenciar o GitFlow)
+- develop** — branch de desenvolvimento (commit mínimo apenas para evidenciar o GitFlow)
 - **feature/acessibilidade** — melhorias de acessibilidade (commit mínimo para evidenciar GitFlow)
 - **feature/imagens** — branch criada para evidenciar o GitFlow (commit mínimo, sem alterações reais no projeto)
 - **release/1.0.0** — preparação da versão final (commit mínimo, sem alterações reais no projeto)
