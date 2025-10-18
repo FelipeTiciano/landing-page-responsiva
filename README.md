@@ -50,24 +50,14 @@ desenvolvimento-web-final/
 1. Clone o repositório ou extraia o ZIP do projeto.
 2. Abra a pasta no VS Code ou outro editor.
 3. Abra `index.html` no navegador para visualizar o site.
-4. Para rodar build otimizada (minificação de CSS/JS/HTML):
-   ```bash
-   npm install
-   npm run build
-
-   Histórico Git / GitFlow
 
 Branches principais criadas:
 
-main — branch de produção
-
-develop — branch de desenvolvimento
-
-feature/acessibilidade — melhorias de acessibilidade
-
-feature/imagens — adição de imagens e ajustes responsivos
-
-release/1.0.0 — preparação da versão final
+- **main** — branch de produção
+**develop** — branch de desenvolvimento (commit mínimo apenas para evidenciar o GitFlow)
+- **feature/acessibilidade** — melhorias de acessibilidade (commit mínimo para evidenciar GitFlow)
+- **feature/imagens** — branch criada para evidenciar o GitFlow (commit mínimo, sem alterações reais no projeto)
+- **release/1.0.0** — preparação da versão final (commit mínimo, sem alterações reais no projeto)
 
 Tag de release: v1.0.0
 
