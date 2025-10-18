@@ -73,8 +73,14 @@ Tag de release: v1.0.0
 
 Todos os commits foram feitos com mensagens semânticas (feat:, fix:, chore:, merge:).
 
+## Deploy (GitHub Pages)
 
+O site está publicado no GitHub Pages:
 
+[Visualizar site](https://felipeticiano.github.io/desenvolvimento_front_end_entrega_final)
+
+Para acessar o site, clique no link acima.  
+O projeto está configurado para rodar diretamente no navegador sem necessidade de instalação adicional.
 
 
 Acessibilidade:
