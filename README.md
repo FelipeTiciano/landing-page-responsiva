@@ -41,7 +41,7 @@ desenvolvimento-web-final/
 + ├─ ACCESSIBILITY.md
 + ├─ CHANGELOG.md
 + ├─ RELEASES.md
-+ └─ .git/
+
 
 ## Instalação e Execução Local
 
