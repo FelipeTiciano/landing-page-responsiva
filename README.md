@@ -31,19 +31,19 @@ Este projeto é a entrega final da disciplina, consolidando todo o conhecimento 
 ## Estrutura do Projeto
 
 desenvolvimento-web-final/
-+├─ index.html
-+├─ styles.css
-+├─ script.js
-+├─ images/
-+│ ├─ banner.png
-+│ ├─ dark-mode.png
-+│ └─ form.png
-+├─ ACCESSIBILITY.md
-+├─ CHANGELOG.md
-+├─ RELEASES.md
-+├─ MANUAL_UPLOAD.md
-+├─ package.json
-+└─ .git/
++ ├─ index.html
++ ├─ styles.css
++ ├─ script.js
++ ├─ images/
++ │ ├─ banner.png
++ │ ├─ dark-mode.png
++ │ └─ form.png
++ ├─ ACCESSIBILITY.md
++ ├─ CHANGELOG.md
++ ├─ RELEASES.md
++ ├─ MANUAL_UPLOAD.md
++ ├─ package.json
++ └─ .git/
 
 ## Instalação e Execução Local
 
