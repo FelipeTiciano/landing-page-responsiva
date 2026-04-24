@@ -1,8 +1,8 @@
-# Desenvolvimento Web Final
+# landing-page-responsiva
 
 **Aluno:** Felipe Ticiano Foltram  
 **Disciplina:** Desenvolvimento Front-End para Web  
-**Projeto:** Entrega Final - SPA Acessível e Otimizada  
+**Projeto:** - SPA Acessível e Otimizada  
 
 ---
 
